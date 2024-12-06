@@ -66,8 +66,8 @@ body {
 /* Menu */
 .main-menu {
   display: flex;
-  justify-content: start;
-  margin-left: 80px;
+  justify-content: center;
+  
 }
 
 .main-menu ul {
