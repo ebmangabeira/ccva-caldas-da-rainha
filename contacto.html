@@ -1,0 +1,479 @@
+<!DOCTYPE HTML>
+<html lang="pt">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Necessidades Básicas da Página -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Centro Cristão Vida Abundante | Igreja em Caldas da Rainha</title>
+    <meta name="description" content="Centro Cristão Vida Abundante - Uma igreja acolhedora e ativa.">
+    <meta name="keywords" content="igreja, cristianismo, fé, eventos, comunidade">
+    <meta name="author" content="">
+    <!-- Metas Específicas para Dispositivos Móveis -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <!-- CSS -->
+    <link rel="icon" href="images/ccva-barra-nav.png" type="image/png">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/custom.css" rel="stylesheet" type="text/css">
+    <link href="plugins/mediaelement/mediaelementplayer.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prettyPhoto/3.1.6/css/prettyPhoto.min.css" integrity="sha512-QFZOBNm6Qc8EhGTzDNZPWhIZJx5xAoO7gptC9xRAs5BZpCI1KeX0TpSUhFRbfbw9bxPbz4jvpxEbVgWwSpPvAA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Estilo de Cor -->
+    <link href="colors/color1.css" rel="stylesheet" type="text/css">
+    <!-- Inclusão da Fonte Open Sans -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/modernizr@2.8.3/modernizr.min.js"></script>
+    <script src="https://kit.fontawesome.com/2339e70d56.js" crossorigin="anonymous"></script>
+    <!-- Seu arquivo CSS personalizado -->
+    <link href="css/seu-estilo.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div id="cookie-banner" class="cookie-banner">
+      <p>
+          Este site utiliza cookies para melhorar sua experiência. 
+          <a href="#" id="open-privacy-modal">Saiba mais</a>.
+      </p>
+      <div class="cookie-buttons">
+          <button id="decline-cookies" class="btn btn-danger">Recusar</button>
+          <button id="accept-cookies" class="btn btn-success">Aceitar</button>
+      </div>
+    </div>
+    <!-- Modal de Política de Privacidade -->
+    <div id="privacy-modal" class="modal">
+      <div class="modal-content">
+        <span id="close-modal" class="close-btn">&times;</span>
+        <h2>Política de Privacidade de Cookies</h2>
+        <p>
+          Os cookies são pequenos ficheiros armazenados no seu dispositivo quando visita um site. Estes ficheiros ajudam a melhorar a sua experiência, a relembrar preferências e a analisar o uso do site.
+        </p>
+        <h3>Por que utilizamos cookies?</h3>
+        <ul>
+          <li>Garantir o funcionamento adequado do site.</li>
+          <li>Personalizar a sua experiência.</li>
+          <li>Melhorar o desempenho e a funcionalidade do site.</li>
+          <li>Exibir conteúdos relevantes.</li>
+        </ul>
+        <h3>Os seus direitos</h3>
+        <p>
+          Pode:
+        </p>
+        <ul>
+          <li>Aceitar todos os cookies para uma experiência completa.</li>
+          <li>Recusar cookies não essenciais, o que pode limitar algumas funcionalidades.</li>
+          <li>Gerir ou bloquear cookies diretamente nas definições do seu navegador.</li>
+        </ul>
+        <h3>Partilha e segurança</h3>
+        <p>
+          As informações recolhidas pelos cookies são protegidas e utilizadas apenas para fins específicos. Não partilhamos estas informações com terceiros, exceto quando exigido por lei.
+        </p>
+        <button id="return-to-banner" class="btn btn-primary">Retornar</button>
+      </div>
+    </div>
+    <!-- Início do Cabeçalho do Site -->
+    <header>
+      <!-- Top Header -->
+      <section class="top-header">
+        <div class="interface">
+          <div class="logotipo">
+            <a href="#" aria-label="Página Inicial">
+              <img src="images/declaramos-ccva.webp" alt="Logotipo CCVA">
+            </a>
+          </div>
+          <button class="menu-toggle" aria-label="Abrir menu">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </button>
+        </div>
+      </section>
+    
+      <!-- Bottom Header -->
+      <section class="bottom-header">
+        <div class="interface">
+          <nav class="main-menu" aria-label="Menu Principal">
+            <ul>
+              <li><a href="index.html">INÍCIO</a></li>
+              <li><a href="quem-somos.html">QUEM SOMOS</a></li>
+    
+              <!-- Dropdown: Ministério -->
+              <li class="drop-hover">
+                <a href="#" class="drop-toggle" aria-haspopup="true" aria-expanded="false">
+                  MINISTÉRIO <i class="fa-solid fa-chevron-down"></i>
+                </a>
+                <div class="drop" role="menu">
+                  <a href="ministério-mulheres.html" role="menuitem">MINISTÉRIO DE MULHERES</a>
+                  <a href="ministério-homens.html" role="menuitem">MINISTÉRIO DE HOMENS</a>
+                  <a href="ministério-crianças.html" role="menuitem">MINISTÉRIO DE CRIANÇAS</a>
+                  <a href="ministério-adolecentes.html" role="menuitem">MINISTÉRIO DE ADOLESCENTES</a>
+                  <a href="espaço-fixe.html" role="menuitem">MINISTÉRIO ESPAÇO FIXE</a>
+                </div>
+              </li>
+    
+              <!-- Dropdown: Estudo Bíblico -->
+              <li class="drop-hover">
+                <a href="#" class="drop-toggle" aria-haspopup="true" aria-expanded="false">
+                  ESTUDO <i class="fa-solid fa-chevron-down"></i>
+                </a>
+                <div class="drop" role="menu">
+                  <a href="estudo-bíblico.html" role="menuitem">ESTUDO BÍBLICO</a>
+                  <a href="artigos.html" role="menuitem">ARTIGOS</a>
+                  <a href="bíblia-online.html" role="menuitem">BÍBLIA ON-LINE</a>
+                </div>
+              </li>
+    
+              <li><a href="galeria.html">GALERIA</a></li>
+    
+              <li><a href="doação.html">DOAÇÃO</a></li>
+              <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+    </header>
+    
+    <!-- Fim do Cabeçalho do Site -->
+    <!-- Início Cabeçalho da Página -->
+    <div class="page-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1>Contacto</h1>
+            <ol class="breadcrumb">
+              <li><a href="index.html" >Início</a></li>
+              <li class="active">Contacto</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Fim Cabeçalho da Página -->
+    <!-- Start Content -->
+    <div class="main" role="main">
+      <div id="content" class="content full">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-9">
+              <header class="single-post-header clearfix">
+                <h2 class="post-title1">Nossa Localização</h2>
+              </header>
+              <div class="post-content">
+                <div id="gmap" style="margin-bottom: 20px;">
+                  <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3125.362271914301!2d-9.138142!3d39.404185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd18a30b921c9d89%3A0x90f3b77e1b0d6208!2sR.%20Sebasti%C3%A3o%20de%20Lima%2C%202500-277%20Caldas%20da%20Rainha%2C%20Portugal!5e0!3m2!1spt-BR!2sbr!4v1619276631578!5m2!1spt-BR!2sbr" 
+                    width="100%" 
+                    height="400" 
+                    style="border: 0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                  </iframe>
+                </div>
+                <a href="https://www.google.com/maps/dir/?api=1&destination=39.404185,-9.138142" target="_blank" class="btn btn-primary w-100">
+                  Abrir no GPS
+                </a>
+              </div><br><br>
+              <h2>Entra em contacto ou faça um pedido de Oração.</h2>
+              <p>A tua opinião é importante para nós! Envia tua mensagem, pedido de oração, dúvida ou informação. Queremos orar por ti e te apoiar no que precisares. Juntos, podemos transformar vidas com Cristo Jesus. Estamos à disposição para ajudar-te!</p>
+              <hr>
+              <div class="row" id="formulario-contato">
+                <form id="contactform" name="contactform" class="contact-form">
+                  <div class="col-md-6 margin-15">
+                    <div class="form-group">
+                      <input type="text" id="name" name="name" class="form-control input-lg" placeholder="Nome*" required>
+                    </div>
+                    <div class="form-group">
+                      <input type="email" id="email" name="email" class="form-control input-lg" placeholder="Email*" required>
+                    </div>
+                    <div class="form-group">
+                      <input type="text" id="phone" name="phone" class="form-control input-lg" placeholder="Telefone">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <textarea cols="6" rows="7" id="comments" name="comments" class="form-control input-lg" placeholder="Mensagem" required></textarea>
+                    </div>
+                  </div>
+                  <!-- Checkbox de Privacidade -->
+                  <div class="col-md-12 mt-4">
+                    <div class="form-check form-check-lg d-flex align-items-center">
+                      <input id="privacy-checkbox" type="checkbox" name="privacidade" value="Privacidade" class="form-check-input custom-checkbox">
+                      <label for="privacy-checkbox" class="form-check-label flex-grow-1"></label>
+                      <span class="privacidade">Estou ciente de que os meus dados de informação não serão divulgados nem informados e que tudo o que for enviado pelo formulário estará seguro pela política de privacidade.</span>
+                        
+                      <a href="#corrigir-link" id="open-form-privacy-modal" class="ms-1">Saiba mais</a>
+                    </div>
+                    <div class="text-danger mt-2" id="privacy-message" style="display: none;">
+                      Por favor, aceite os termos de privacidade para enviar o formulário.
+                    </div><br>
+                  </div>
+                  <!-- Modal de Política de Privacidade do Formulário -->
+                  <div id="form-privacy-modal" class="modal">
+                    <div class="modal-content">
+                      <span id="close-form-privacy-modal" class="close-btn">&times;</span>
+                      <h2>Política de Privacidade</h2>
+                      <p>
+                        Os dados fornecidos através deste formulário são protegidos pela liderança da Igreja CCVA - Vida Abundante Caldas da Rainha. Garantimos que as suas informações não serão divulgadas ou partilhadas com terceiros. Utilizamos medidas de segurança adequadas para proteger os seus dados contra acesso não autorizado, alteração ou destruição.
+                      </p>
+                      <p>
+                        A sua privacidade é importante para nós e estamos comprometidos em salvaguardar as suas informações pessoais. Para mais detalhes sobre como tratamos os seus dados, por favor, entre em contacto connosco.
+                      </p>
+                      <button id="close-form-privacy-modal-button" class="btn btn-primary">Fechar</button>
+                    </div>
+                  </div>
+                  <div class="col-md-12 mt-3">
+                    <button id="btn1" name="submit" type="submit" class="btn btn-primary btn-lg w-100">
+                        <i class="fa fa-paper-plane"></i> Enviar
+                    </button>
+                    <span id="success-message" class="success" style="color: #05a5ab; display: none;">
+                        <i class="fa fa-check-circle"></i> Foi enviado com sucesso
+                    </span>
+                    <span id="error-message" class="success" style="color: #a94442; display: none;">
+                        <i class="fa fa-times-circle"></i> Não foi enviado com sucesso
+                    </span>
+                </div>
+                   
+                </form>
+              
+                <div class="clearfix"></div>
+                <div class="col-md-12">
+                  <div id="message" style="margin-top: 20px;"></div>
+                </div>
+              </div>                            
+            </div>
+            <!-- Início Barra Lateral -->
+            <div class="col-md-3 sidebar">
+              <div class="widget-upcoming-events widget">
+                <div class="sidebar-widget-title">
+                  <h3>Eventos</h3>
+                </div>
+                <ul>
+                  <li class="item event-item clearfix">
+                    <div class="event-date"> <span>Qua.</span> </div>
+                    <div class="event-detail">
+                      <h4><a href="oração-detalhes.html">Sala de Oração</a></h4>
+                      <span class="event-dayntime meta-data">Das 21:00 as 22:00</span> </div>
+                  </li>
+                  <li class="item event-item clearfix">
+                    <div class="event-date"> <span>Sex.</span> </div>
+                    <div class="event-detail">
+                      <h4><a href="estudo-bíblico.html">Estudo Bíblico</a></h4>
+                      <span class="event-dayntime meta-data">Das 21:00 as 22:00</span> </div>
+                  </li>
+                  <li class="item event-item clearfix">
+                    <div class="event-date"> <span>Dom.</span> </div>
+                    <div class="event-detail">
+                      <h4><a href="culto-celebração.html">Culto de Celebração</a></h4>
+                      <span class="event-dayntime meta-data">Das 10:30 as 12:00</span> </div>
+                  </li>
+                </ul>
+              </div>
+              <!-- Widget de Publicações Recentes -->
+              <div class="widget-recent-posts widget">
+                <div class="sidebar-widget-title">
+                  <h3>Contacto</h3>
+                </div>
+                <ul>
+                  <li>
+                    <a href="https://wa.me/351912061291" target="_blank" rel="noopener noreferrer">
+                        <i class="fa fa-whatsapp"></i> <span class="contactos-barra-lateral">+351 912 061 291</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/ccva.caldasdarainha/" target="_blank" rel="noopener noreferrer">
+                      <i class="fa fa-instagram"></i> <span class="contactos-barra-lateral">@ccva.caldasdarainha</span>
+                  </a>
+                  </li>
+                  <li>
+                    <a href="https://www.facebook.com/VidaAbundanteCaldasdaRainha/photos_albums?locale=pt_PT" target="_blank" rel="noopener noreferrer">
+                      <i class="fa fa-facebook-square"></i>
+                      <span class="contactos-barra-lateral">CCVA - Caldas da Rainha</span>
+                  </a>
+                  </li>
+                  <li>
+                    <a href="mailto:caldasdarainha@gmail.com" target="_blank" rel="noopener noreferrer">
+                      <i class="fa fa-envelope"></i> <span class="contactos-barra-lateral">caldasdarainha@gmail.com</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Início do Rodapé -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <!-- Início dos Widgets do Rodapé -->
+          <div class="col-md-4 col-sm-4 widget footer-widget">
+            <h4 class="footer-widget-title">Sobre a nossa Igreja</h4>
+            <img src="images/CCVA-logo.webp"  alt="Logotipo">
+            <div class="spacer-20"></div>
+            <p>A Igreja CCVA Vida Abundante valoriza o ensino da palavra de Deus, centrando-se no crescimento espiritual, na adoração genuína e em acções que transformam vidas.</p>
+          </div>
+          <div class="col-md-4 col-sm-4 widget footer-widget">
+            <h4 class="footer-widget-title">Blogroll</h4>
+            <ul>
+              <li><a href="index.html">Início</a></li>
+              <li><a href="quem-somos.html">Quem Somos</a></li>
+              <li><a href="estudo-bíblico.html">Estudo Bíblico</a></li>
+              <li><a href="doação.html">Doação</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-sm-4 widget footer-widget">
+            <h4 class="footer-widget-title">Nosso Endereço</h4>
+            Rua Sebastião de Lima 37A <br><br>
+            Caldas da Rainha <br><br>
+            Leiria <br><br>
+            Portugal <br><br>
+            CP: 2500-277 <br><br> 
+          </div>  
+        </div>
+      </div>
+    </footer>
+    <footer class="site-footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="copyrights-col-left col-md-6 col-sm-6">
+            <p>&copy; 2024 CCVA - Todos Direitos reservados. Criado por Emerson Mangabeira. </p>
+          </div>
+          <div class="copyrights-col-right col-md-6 col-sm-6">
+            <div class="social-icons">
+              <a href="https://www.facebook.com/VidaAbundanteCaldasdaRainha/photos_albums?locale=pt_PT"><i class="fa fa-facebook-square"></i></a>
+              <a href="https://www.instagram.com/ccva.caldasdarainha/"><i class="fa fa-instagram"></i></a>
+              <a href="https://www.youtube.com/channel/UCIN6-Zo3-OklRCn_I146hKg"><i class="fa fa-youtube"></i></a>
+              <a href="https://wa.me/351912061291"><i class="fa fa-whatsapp"></i></a> 
+              <a href="#"><i class="fa fa-envelope"></i></a>
+              <a href="https://www.google.com/maps/dir/?api=1&destination=39.404185,-9.138142" target="_blank"><i class="fa-solid fa-location-dot"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Fim do Rodapé -->
+    <a id="back-to-top"><i class="fa fa-angle-double-up"></i></a>
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-2.0.0.min.js"></script><!-- Jquery Library Call -->
+    <script src="https://cdn.jsdelivr.net/gh/scaron/prettyphoto/js/jquery.prettyPhoto.js"></script><!-- PrettyPhoto Plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script><!-- Waypoints -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.16/mediaelement-and-player.min.js"></script><!-- MediaElements -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/jquery.flexslider-min.js"></script><!-- FlexSlider -->
+    <script src="plugins/countdown/js/jquery.countdown.min.js"></script> <!-- Jquery Timer -->
+    <script src="js/helper-plugins.js"></script> <!-- Plugins -->
+    <script src="js/bootstrap.js"></script> <!-- UI -->
+    <script src="js/init.js"></script> <!-- All Scripts -->
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <!-- Seu arquivo JavaScript personalizado -->
+    <script src="js/scripts.js"></script>
+    <script>
+      (function () {
+          emailjs.init("4OrjsEHJulaC1VmSN"); // Substitua pela sua Public Key
+      })();
+
+      // Manipulação do formulário
+      document.getElementById("contactform").addEventListener("submit", function (event) {
+          event.preventDefault(); // Evita o comportamento padrão do formulário
+
+          // Elementos DOM
+          var button = document.getElementById("btn1");
+          var successMessage = document.getElementById("success-message");
+          var errorMessage = document.getElementById("error-message");
+          var checkbox = document.getElementById("privacy-checkbox");
+          var privacyMessage = document.getElementById("privacy-message");
+
+          // Limpar mensagens anteriores
+          successMessage.style.display = "none";
+          errorMessage.style.display = "none";
+
+          // Verificar se o checkbox foi marcado
+          if (!checkbox.checked) {
+              // Mostrar mensagem de privacidade em vermelho
+              privacyMessage.style.display = "block";
+              checkbox.classList.add("is-invalid");
+              return;
+          }
+
+          // Se o checkbox estiver marcado, ocultar mensagem de privacidade
+          privacyMessage.style.display = "none";
+          checkbox.classList.remove("is-invalid");
+
+          // Alterar texto do botão para "Enviando..." e desativá-lo
+          button.innerHTML = "Enviando...";
+          button.disabled = true;
+
+          // Configurar serviço e template
+          const serviceID = "default_service"; // Substitua pelo seu Service ID
+          const templateID = "template_tbgi2yq"; // Substitua pelo seu Template ID
+
+          // Enviar o formulário
+          emailjs.sendForm(serviceID, templateID, this)
+              .then(
+                  function () {
+                      // Exibir mensagem "Enviando..." por 3 segundos antes de sucesso
+                      setTimeout(() => {
+                          successMessage.style.display = "inline-block"; // Exibe mensagem de sucesso
+                          errorMessage.style.display = "none"; // Garante que a mensagem de erro está oculta
+
+                          // Retornar o botão ao estado original
+                          button.innerHTML = '<i class="fa fa-paper-plane"></i> Enviar';
+                          button.disabled = false;
+
+                          // Limpar o formulário
+                          document.getElementById("contactform").reset();
+                      }, 3000); // Tempo de exibição de "Enviando..."
+                  },
+                  function () {
+                      // Exibir mensagem "Enviando..." por 3 segundos antes de erro
+                      setTimeout(() => {
+                          errorMessage.style.display = "inline-block"; // Exibe mensagem de erro
+                          successMessage.style.display = "none"; // Garante que a mensagem de sucesso está oculta
+
+                          // Retornar o botão ao estado original
+                          button.innerHTML = '<i class="fa fa-paper-plane"></i> Enviar';
+                          button.disabled = false;
+                      }, 3000); // Tempo de exibição de "Enviando..."
+                  }
+              );
+      });
+
+      // Evento para esconder mensagem de privacidade ao marcar o checkbox
+      document.getElementById("privacy-checkbox").addEventListener("change", function () {
+          var privacyMessage = document.getElementById("privacy-message");
+
+          if (this.checked) {
+              // Ocultar mensagem se o checkbox for marcado
+              privacyMessage.style.display = "none";
+          }
+      });
+
+      // Gerenciamento da Modal "Saiba Mais"
+      const privacyModal = document.getElementById("form-privacy-modal");
+      const openModalLink = document.getElementById("open-form-privacy-modal");
+      const closeModalButton = document.getElementById("close-form-privacy-modal");
+      const closeModalButtonExtra = document.getElementById("close-form-privacy-modal-button");
+
+      // Abrir a modal quando o link "Saiba Mais" for clicado
+      openModalLink.addEventListener("click", function (event) {
+          event.preventDefault(); // Prevenir comportamento padrão do link
+          privacyModal.style.display = "flex"; // Mostrar a modal
+      });
+
+      // Fechar a modal quando o botão de fechar (&times;) for clicado
+      closeModalButton.addEventListener("click", function () {
+          privacyModal.style.display = "none"; // Esconder a modal
+      });
+
+      // Fechar a modal quando o botão "Fechar" dentro da modal for clicado
+      closeModalButtonExtra.addEventListener("click", function () {
+          privacyModal.style.display = "none"; // Esconder a modal
+      });
+
+      // Fechar a modal clicando fora dela
+      window.addEventListener("click", function (event) {
+          if (event.target == privacyModal) {
+              privacyModal.style.display = "none"; // Esconder a modal
+          }
+      });
+    </script>
+  </body>   
+</html>

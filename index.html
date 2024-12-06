@@ -1,0 +1,488 @@
+<!DOCTYPE HTML>
+<html lang="pt">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Necessidades Básicas da Página -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Centro Cristão Vida Abundante | Igreja em Caldas da Rainha</title>
+    <meta name="description" content="Centro Cristão Vida Abundante - Uma igreja acolhedora e ativa.">
+    <meta name="keywords" content="igreja, cristianismo, fé, eventos, comunidade">
+    <meta name="author" content="">
+    <!-- Metas Específicas para Dispositivos Móveis -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <!-- CSS -->
+    <link rel="icon" href="images/ccva-barra-nav.png" type="image/png">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/custom.css" rel="stylesheet" type="text/css">
+    <link href="plugins/mediaelement/mediaelementplayer.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prettyPhoto/3.1.6/css/prettyPhoto.min.css" integrity="sha512-QFZOBNm6Qc8EhGTzDNZPWhIZJx5xAoO7gptC9xRAs5BZpCI1KeX0TpSUhFRbfbw9bxPbz4jvpxEbVgWwSpPvAA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!-- Estilo de Cor -->
+    <link href="colors/color1.css" rel="stylesheet" type="text/css">
+    <!-- Inclusão da Fonte Open Sans -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/modernizr@2.8.3/modernizr.min.js"></script>
+    <script src="https://kit.fontawesome.com/2339e70d56.js" crossorigin="anonymous"></script>
+    <!-- Seu arquivo CSS personalizado -->
+    <link href="css/seu-estilo.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div id="cookie-banner" class="cookie-banner">
+      <p>
+          Este site utiliza cookies para melhorar sua experiência. 
+          <a href="#" id="open-privacy-modal">Saiba mais</a>.
+      </p>
+      <div class="cookie-buttons">
+          <button id="decline-cookies" class="btn btn-danger">Recusar</button>
+          <button id="accept-cookies" class="btn btn-success">Aceitar</button>
+      </div>
+    </div>
+    <!-- Modal de Política de Privacidade -->
+    <div id="privacy-modal" class="modal">
+      <div class="modal-content">
+        <span id="close-modal" class="close-btn">&times;</span>
+        <h2>Política de Privacidade de Cookies</h2>
+        <p>
+          Os cookies são pequenos ficheiros armazenados no seu dispositivo quando visita um site. Estes ficheiros ajudam a melhorar a sua experiência, a relembrar preferências e a analisar o uso do site.
+        </p>
+        <h3>Por que utilizamos cookies?</h3>
+        <ul>
+          <li>Garantir o funcionamento adequado do site.</li>
+          <li>Personalizar a sua experiência.</li>
+          <li>Melhorar o desempenho e a funcionalidade do site.</li>
+          <li>Exibir conteúdos relevantes.</li>
+        </ul>
+        <h3>Os seus direitos</h3>
+        <p>
+          Pode:
+        </p>
+        <ul>
+          <li>Aceitar todos os cookies para uma experiência completa.</li>
+          <li>Recusar cookies não essenciais, o que pode limitar algumas funcionalidades.</li>
+          <li>Gerir ou bloquear cookies diretamente nas definições do seu navegador.</li>
+        </ul>
+        <h3>Partilha e segurança</h3>
+        <p>
+          As informações recolhidas pelos cookies são protegidas e utilizadas apenas para fins específicos. Não partilhamos estas informações com terceiros, exceto quando exigido por lei.
+        </p>
+        <button id="return-to-banner" class="btn btn-primary">Retornar</button>
+      </div>
+    </div>
+    <!-- Início do Cabeçalho do Site -->
+    <header>
+      <!-- Top Header -->
+      <section class="top-header">
+        <div class="interface">
+          <div class="logotipo">
+            <a href="#" aria-label="Página Inicial">
+              <img src="images/declaramos-ccva.webp" alt="Logotipo CCVA">
+            </a>
+          </div>
+          <button class="menu-toggle" aria-label="Abrir menu">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </button>
+        </div>
+      </section>
+    
+      <!-- Bottom Header -->
+      <section class="bottom-header">
+        <div class="interface">
+          <nav class="main-menu" aria-label="Menu Principal">
+            <ul>
+              <li><a href="index.html">INÍCIO</a></li>
+              <li><a href="quem-somos.html">QUEM SOMOS</a></li>
+    
+              <!-- Dropdown: Ministério -->
+              <li class="drop-hover">
+                <a href="#" class="drop-toggle" aria-haspopup="true" aria-expanded="false">
+                  MINISTÉRIO <i class="fa-solid fa-chevron-down"></i>
+                </a>
+                <div class="drop" role="menu">
+                  <a href="ministério-mulheres.html" role="menuitem">MINISTÉRIO DE MULHERES</a>
+                  <a href="ministério-homens.html" role="menuitem">MINISTÉRIO DE HOMENS</a>
+                  <a href="ministério-crianças.html" role="menuitem">MINISTÉRIO DE CRIANÇAS</a>
+                  <a href="ministério-adolecentes.html" role="menuitem">MINISTÉRIO DE ADOLESCENTES</a>
+                  <a href="espaço-fixe.html" role="menuitem">MINISTÉRIO ESPAÇO FIXE</a>
+                </div>
+              </li>
+    
+              <!-- Dropdown: Estudo Bíblico -->
+              <li class="drop-hover">
+                <a href="#" class="drop-toggle" aria-haspopup="true" aria-expanded="false">
+                  ESTUDO <i class="fa-solid fa-chevron-down"></i>
+                </a>
+                <div class="drop" role="menu">
+                  <a href="estudo-bíblico.html" role="menuitem">ESTUDO BÍBLICO</a>
+                  <a href="artigos.html" role="menuitem">ARTIGOS</a>
+                  <a href="bíblia-online.html" role="menuitem">BÍBLIA ON-LINE</a>
+                </div>
+              </li>
+    
+              <li><a href="galeria.html">GALERIA</a></li>
+    
+              <li><a href="doação.html">DOAÇÃO</a></li>
+              <li><a href="contacto.html">CONTACTO</a></li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+    </header>
+    
+    <!-- Fim do Cabeçalho do Site -->
+
+    <!-- Início do Conteúdo Principal -->
+    <div class="main" role="main">
+      <!-- Seu conteúdo aqui -->
+    </div>
+    <!-- Fim do Conteúdo Principal -->
+    <!-- Início do Vídeo Hero -->
+    <div class="hero-video-wrapper">
+      <iframe class="hero-video" 
+              src="https://player.vimeo.com/video/1034526272?autoplay=1&loop=1&muted=1&controls=0&title=0&byline=0&portrait=0&badge=0&autopause=0&player_id=0&app_id=58479"
+              frameborder="0" 
+              allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+              title="abertura-ccva" 
+              allowfullscreen>
+      </iframe>
+    </div>
+    
+    <!-- Fim do Vídeo Hero -->
+
+    <!-- Início do Conteúdo -->
+    <div class="main" role="main">
+      <div id="content" class="content full">
+        <div class="container">
+          <div class="row">
+            <div class="icon-blocks">
+              <div class="col-md-3 col-sm-6 icon-block">
+                <i class="fa fa-users fa-3x"></i>
+                <h4>Quem Somos</h4>
+                <p>A CCVA Caldas da Rainha é uma igreja acolhedora que procura viver e partilhar o amor de Deus com todas as pessoas.</p>
+                <a href="quem-somos.html" class="btn btn-primary w-100">Leia Mais</a>
+              </div>
+              <div class="col-md-3 col-sm-6 icon-block">
+                <i class="fa fa-handshake-o fa-3x"></i>
+                <h4>Bem-Vindos</h4>
+                <p>Nosso propósito é cumprir o mandato de Jesus, partilhando este conhecimento para transformar vidas.</p>
+                <a href="bem-vindos.html" class="btn btn-primary w-100">Leia Mais</a>
+              </div>
+              <div class="col-md-3 col-sm-6 icon-block">
+                <i class="fa fa-bible fa-3x"></i>
+                <h4>Bíblia On-line</h4>
+                <p>Aprofunde-se na Palavra de Deus com nossa Bíblia on-line, acessível a qualquer momento para sua edificação espiritual.</p>
+                <a href="bíblia-online.html" class="btn btn-primary w-100">Leia Mais</a>
+              </div>
+              <div class="col-md-3 col-sm-6 icon-block">
+                <i class="fa fa-heart fa-3x"></i>
+                <h4>Doação</h4>
+                <p>Venha ajudar-nos a erguer a obra de Deus, sendo parte ativa deste grande propósito que transforma vidas.</p>
+                <a href="doação.html" class="btn btn-primary w-100">Leia Mais</a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8 col-sm-6">
+              <!-- Listagem de Eventos -->
+              <div class="listing events-listing">
+                <header class="listing-header">
+                  <h3>Programação Semanal</h3>
+                </header>
+                <section class="listing-cont">
+                  <ul>
+                    <li class="item event-item">
+                      <div class="event-date"> <span class="Day">Qua.</span> </div>
+                      <div class="event-detail">
+                        <h4><a href="oração-detalhes.html">Sala de Oração</a></h4>
+                        <span class="event-dayntime meta-data">Horário das 21:00 as 22:00</span>
+                      </div>
+                      <div class="to-event-url">
+                        <div><a href="oração-detalhes.html" class="btn btn-primary w-100">Detalhes</a></div>
+                      </div>
+                    </li>
+                    <li class="item event-item">
+                      <div class="event-date"> <span class="Day">Sex.</span> </div>
+                      <div class="event-detail">
+                        <h4><a href="estudo-bíblico-detalhes.html">Estudo Bíblico</a></h4>
+                        <span class="event-dayntime meta-data">Horário das 21:00 as 22:00</span>
+                      </div>
+                      <div class="to-event-url">
+                        <div><a href="estudo-bíblico-detalhes.html" class="btn btn-primary w-100">Detalhes</a></div>
+                      </div>
+                    </li>
+                    <li class="item event-item">
+                      <div class="event-date"> <span class="Day">Dom.</span> </div>
+                      <div class="event-detail">
+                        <h4><a href="culto-celebração.html">Culto de Celebração</a></h4>
+                        <span class="event-dayntime meta-data">Horário das 10:30 as 12:00</span>
+                      </div>
+                      <div class="to-event-url">
+                        <div><a href="culto-celebração.html" class="btn btn-primary w-100">Detalhes</a></div>
+                      </div>
+                    </li>
+                  </ul>
+                </section>
+              </div>
+              <div class="spacer-40"></div>
+              <!-- Últimas Notícias -->
+              <div class="listing post-listing">
+                <header class="listing-header">
+                  <h3>Informações</h3>
+                </header>
+                <section class="listing-cont">
+                  <ul>
+                    <li class="item post">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <a href="espaço-fixe.html" class="media-box">
+                            <img src="images/fixe-informação.webp" alt="" class="img-thumbnail">
+                          </a>
+                        </div>
+                        <div class="col-md-8">
+                          <div class="post-title">
+                            <h2><a href="blog-post.html">Conheça o Espaço FIXE</a></h2>
+                          </div>
+                          <p class="p-index">O FIXE é um espaço criado com amor para as crianças, onde aprendem sobre Deus de forma divertida. Venham conhecer este lugar especial e inesquecível!</p>
+                          <a href="espaço-fixe.html" class="btn btn-primary w-100">Mais Detalhes</a>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="item post">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <a href="blog-post.html" class="media-box">
+                            <img src="images/artigo-logo.webp" alt="" class="img-thumbnail">
+                          </a>
+                        </div>
+                        <div class="col-md-8">
+                          <div class="post-title">
+                            <h2><a href="blog-post.html">Veja nossos artigos</a></h2>
+                          </div>
+                          <p class="p-index">Conheça nossos artigos e encontre palavras que inspiram, edificam e fortalecem sua caminhada cristã, ajudando você a crescer em sabedoria e fé todos os dias.</p>
+                          <a href="artigos.html" class="btn btn-primary w-100">Mais Detalhes</a>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </section>
+              </div>
+            </div>
+            <!-- Início da Barra Lateral -->
+            <div class="col-md-4 col-sm-6">
+              <!-- Últimos Sermões -->
+              <div class="listing sermons-listing">
+                <header class="listing-header">
+                  <h3>Casa Missionária</h3>
+                </header>
+                <section class="listing-cont">
+                  <ul>
+                    <li class="item sermon featured-sermon">
+                      <span class="date">Vivência</span>
+                      <h4>
+                        <a href="404.html">Conheça a Casa Missionária Conexão Europa</a>
+                      </h4>
+                      <div class="featured-sermon-video">
+                        <iframe src="https://player.vimeo.com/video/1028561386?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="200" height="150" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="CONHEÇA A MISSÃO CONEXÃO EUROPA"></iframe>
+                        <p>Casa Missionária Conexão Europa é um lugar de vivência e acolhimento, onde a fé e o amor se unem para transformar vidas, conectando pessoas à missão de Deus.</p>
+                      </div>
+                      <!-- Botão com descrição acessível -->
+                      <a href="404.html" class="btn btn-primary w-100" aria-label="Leia mais sobre a Casa Missionária Conexão Europa">
+                        Leia Mais
+                      </a>
+                    </li>
+                  </ul>
+                  <div class="widget-recent-posts widget">
+                    <div class="sidebar-widget-title">
+                      <h3>Contactos</h3>
+                    </div>
+                    <ul>
+                      <li>
+                        <a href="https://wa.me/351912061291" target="_blank" rel="noopener noreferrer">
+                          <i class="fa fa-whatsapp"></i> <span class="contactos-barra-lateral">+351 912 061 291</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.instagram.com/ccva.caldasdarainha/" target="_blank" rel="noopener noreferrer">
+                          <i class="fa fa-instagram"></i> <span class="contactos-barra-lateral">@ccva.caldasdarainha</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.facebook.com/VidaAbundanteCaldasdaRainha/photos_albums?locale=pt_PT" target="_blank" rel="noopener noreferrer">
+                          <i class="fa fa-facebook-square"></i>
+                          <span style="margin-left: 8px;">CCVA - Caldas da Rainha</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="mailto:caldasdarainha@gmail.com" target="_blank" rel="noopener noreferrer">
+                          <i class="fa fa-envelope"></i> <span class="contactos-barra-lateral">caldasdarainha@gmail.com</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section>
+      <div class="parallax" style="background-image:url(images/parallax-ccva.png)">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 hidden-sm hidden-xs"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section></section>
+    <!-- Início da Galeria em Destaque -->
+    <div class="featured-gallery">
+      <div class="container">
+        <h4>Fique Por Dentro</h4>
+        <div class="row">
+          <section>
+            <ul class="image-row row">
+              <li class="item col-12 col-md-4">
+                <a href="404.html" target="_blank">
+                  <img src="images/CNXEUR.webp" alt="Imagem 2" class="img-thumbnail">
+                </a>
+              </li>
+              <li class="item col-12 col-md-4">
+                <a href="https://www.youtube.com/watch?v=vXcEGbw6xDU&t=515s" target="_blank">
+                  <img src="images/cinema-logo.jpg" alt="Imagem 3" class="img-thumbnail">
+                </a>
+              </li>
+              <li class="item col-12 col-md-4">
+                <a href="https://www.youtube.com/@DaniKelCNXbrasil" target="_blank">
+                  <img src="images/podcast-logo.webp" alt="Imagem 4" class="img-thumbnail">
+                </a>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </div>
+    <!-- Fim da Galeria em Destaque -->
+
+    <!-- Início do Carrossel -->
+    <div class="main" role="main"></div>
+    <section class="carousel-section">
+      <h4>Depoimentos</h4>
+      <div class="swiper-container" style="color: black;">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="images/pr-daniel.jpg" alt="Imagem 1">
+            <div class="name">Pr: Daniel Framen</div>
+            <div class="testimonial">"Ser pastor da CCVA é uma honra e uma missão, guiando vidas ao propósito de Deus com amor e dedicação."</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="images/pr-daniel.jpg" alt="Imagem 2">
+            <div class="name">Pr: Daniel Framen</div>
+            <div class="testimonial">"Ser pastor da CCVA é uma honra e uma missão, guiando vidas ao propósito de Deus com amor e dedicação."</div>
+          </div>
+          <div class="swiper-slide">
+            <img src="images/pr-daniel.jpg" alt="Imagem 3">
+            <div class="name">Pr: Daniel Framen</div>
+            <div class="testimonial">"Ser pastor da CCVA é uma honra e uma missão, guiando vidas ao propósito de Deus com amor e dedicação."</div>
+          </div>
+        </div>
+        <div class="swiper-pagination-bullet-active1 swiper-pagination"></div>
+      </div>
+    </section>
+    <div class="container"><p></p></div>
+    <!-- Fim do Carrossel -->
+
+    <!-- Início do Rodapé -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <!-- Início dos Widgets do Rodapé -->
+          <div class="col-md-4 col-sm-4 widget footer-widget">
+            <h4 class="footer-widget-title">Sobre a nossa Igreja</h4>
+            <img src="images/CCVA-logo.webp" alt="Logotipo">
+            <div class="spacer-20"></div>
+            <p>A Igreja CCVA Vida Abundante valoriza o ensino da palavra de Deus, centrando-se no crescimento espiritual, na adoração genuína e em acções que transformam vidas.</p>
+          </div>
+          <div class="col-md-4 col-sm-4 widget footer-widget">
+            <h4 class="footer-widget-title">Blogroll</h4>
+            <ul>
+              <li><a href="index.html">Início</a></li>
+              <li><a href="quem-somos.html">Quem Somos</a></li>
+              <li><a href="estudo-bíblico.html">Estudo Bíblico</a></li>
+              <li><a href="doação.html">Doação</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-sm-4 widget footer-widget">
+            <h4 class="footer-widget-title">Nosso Endereço</h4>
+            Rua Sebastião de Lima 37A <br><br>
+            Caldas da Rainha <br><br>
+            Leiria <br><br>
+            Portugal <br><br>
+            CP: 2500-277 <br><br>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <footer class="site-footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="copyrights-col-left col-md-6 col-sm-6">
+            <p>&copy; 2024 CCVA - Todos Direitos reservados. Criado por Emerson Mangabeira.</p>
+          </div>
+          <div class="copyrights-col-right col-md-6 col-sm-6">
+            <div class="social-icons">
+              <a href="https://www.facebook.com/VidaAbundanteCaldasdaRainha/photos_albums?locale=pt_PT"><i class="fa fa-facebook-square"></i></a>
+              <a href="https://www.instagram.com/ccva.caldasdarainha/"><i class="fa fa-instagram"></i></a>
+              <a href="https://www.youtube.com/channel/UCIN6-Zo3-OklRCn_I146hKg"><i class="fa fa-youtube"></i></a>
+              <a href="https://wa.me/351912061291"><i class="fa fa-whatsapp"></i></a>
+              <a href="#"><i class="fa fa-envelope"></i></a>
+              <a href="https://www.google.com/maps/dir/?api=1&destination=39.404185,-9.138142" target="_blank"><i class="fa-solid fa-location-dot"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Fim do Rodapé -->
+
+    <!-- Botão Voltar ao Topo -->
+    
+    <a href="#" id="back-to-top"><i class="fa fa-angle-double-up"></i></a>
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-2.0.0.min.js"></script><!-- Jquery Library Call -->
+    <script src="https://cdn.jsdelivr.net/gh/scaron/prettyphoto/js/jquery.prettyPhoto.js"></script><!-- PrettyPhoto Plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script><!-- Waypoints -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.16/mediaelement-and-player.min.js"></script><!-- MediaElements -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.2/jquery.flexslider-min.js"></script><!-- FlexSlider -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="plugins/countdown/js/jquery.countdown.min.js"></script> <!-- Jquery Timer -->
+    <script src="js/helper-plugins.js"></script> <!-- Plugins -->
+    <script src="js/bootstrap.js"></script> <!-- UI -->
+    <script src="js/init.js"></script> <!-- All Scripts -->
+    <!-- Seu script personalizado -->
+    <script>
+      // Inicialização do Swiper
+      document.addEventListener('DOMContentLoaded', function () {
+        var swiper = new Swiper('.swiper-container', {
+          loop: true,
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+          autoplay: {
+            delay: 5000,
+            disableOnInteraction: false,
+          },
+        });
+      });
+    </script>
+  </body>
+</html>
